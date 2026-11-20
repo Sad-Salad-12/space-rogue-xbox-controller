@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "id": "xbox-controller",
+  "name": "Xbox Controller Support",
+  "version": "1.1.0",
+  "description": "Windows XInput support for the original DOS release. Analog flight, navigation, menus, and a command panel. / 原版 DOS 游戏的 Windows XInput 支持，提供模拟飞行、导航、菜单和命令面板。",
+  "targetExeSha256": "f2d6a4a7980dd91125ef615fcec33427feadafe59595dffd38202d7d34cf4b45",
+  "operations": [
+    {
+      "type": "runtime",
+      "feature": "xinput"
+    }
+  ]
+}
